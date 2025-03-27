@@ -1,0 +1,219 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title-1 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.btn {
+    padding: 8px 23px;
+    color: #ffffff;
+    background-color: #070707;
+    border-radius: 23px;
+    transition: all .2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #464242;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+/*------------------------------------ HEADER --------------------------------------*/
+
+.header {
+    padding-top: 46px;
+    background-color: #F1F1F1;
+}
+
+.header-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* LOGO */
+
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    color: #000;
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #FDA300;
+    border-radius: 50%;
+}
+
+/* NAV */
+
+
+
+.nav__list {
+    display: flex;
+    
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.nav__link {
+    color: #000;
+}
+
+.nav__link.active {
+    color: #606060;
+}
+
+.nav-btn{
+    display: none;
+}
+
+/* HEADER CONTENT */
+
+.header-row {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    margin-top: 76px;
+}
+
+.header-content {
+    max-width: 500px;
+}
+
+.header-content__title {
+    font-weight: 600;
+    font-size: 44px;
+    margin-top: 124px;
+}
+
+.header-content__subtitle {
+    margin-top: 20px;
+    line-height: 200%;
+}
+
+/*------------------------------------ HEADER --------------------------------------*/
+
+
+
+/*------------------------------------ SECTION_SERViSEC ------------------------------------*/
+
+.servisec {
+    margin: 90px 0;
+}
+
+.servisec-row {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.servisec-card {
+    min-width: 315px;
+    flex: 1 1 0;
+}
+
+.servisec-card__title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 30px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.servisec-card__subtitle {
+    line-height: 2;
+}
+
+/*------------------------------------ SECTION_SERViSEC ------------------------------------*/
+
+
+/*------------------------------------ PORTFOLIO ------------------------------------*/
+
+.portfolio {
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+.portfolio-title {
+    padding: 90px 0 70px 0;
+}
+
+.project__title {
+    padding: 40px 0 90px 0;
+    font-size: 18px;
+}
+
+.project__title a {
+    color: #070707;
+    text-decoration: underline;
+}
+
+
+/*------------------------------------ PORTFOLIO ------------------------------------*/
+
+
+/*------------------------------------ FOOTER ------------------------------------*/
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-content {
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.contacts-btn {
+    margin-bottom: 87px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    color: #828282;
+}
+
+/*------------------------------------ FOOTER ------------------------------------*/
